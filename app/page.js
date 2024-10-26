@@ -30,7 +30,7 @@ const HomePage = () => {
           Welcome to PayTrace
         </h1>
         <p className="text-lg text-gray-700 mb-8">
-          Track you payments in just a few clicks
+          Track your payments in just a few clicks
         </p>
         <button
           onClick={handleStartClick}

@@ -52,7 +52,7 @@ const HomePage = () => {
 
       <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-lg transform">
         <h2 className="text-3xl font-semibold mb-6 text-center text-blue-700">
-          How to Export Your Google Pay Data
+          Before we start, export your GPay data
         </h2>
 
         {/* Step Tracker */}
@@ -127,7 +127,7 @@ const HomePage = () => {
           >
             {currentStep < steps.length - 1
               ? "Next"
-              : "Go to Transaction Table"}
+              : "Finish"}
           </button>
         </div>
       </div>
